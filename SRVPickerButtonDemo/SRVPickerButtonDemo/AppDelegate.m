@@ -1,14 +1,14 @@
 //
-//  SVAppDelegate.m
-//  SVPickerButton
+//  AppDelegate.m
+//  SRVPickerButtonDemo
 //
 //  Created by Samuel Voigt on 1/7/14.
 //  Copyright (c) 2014 Sam Voigt. All rights reserved.
 //
 
-#import "SVAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation SVAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

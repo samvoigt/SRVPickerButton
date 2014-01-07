@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220DEFB0187C77E6004F28B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFAF187C77E6004F28B1 /* Foundation.framework */; };
+		220DEFB2187C77E6004F28B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFB1187C77E6004F28B1 /* CoreGraphics.framework */; };
+		220DEFB4187C77E6004F28B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFB3187C77E6004F28B1 /* UIKit.framework */; };
+		220DEFBA187C77E6004F28B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 220DEFB8187C77E6004F28B1 /* InfoPlist.strings */; };
+		220DEFBC187C77E6004F28B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEFBB187C77E6004F28B1 /* main.m */; };
+		220DEFC0187C77E6004F28B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEFBF187C77E6004F28B1 /* AppDelegate.m */; };
+		220DEFC3187C77E6004F28B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220DEFC1187C77E6004F28B1 /* Main.storyboard */; };
+		220DEFC6187C77E6004F28B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEFC5187C77E6004F28B1 /* ViewController.m */; };
+		220DEFC8187C77E6004F28B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220DEFC7187C77E6004F28B1 /* Images.xcassets */; };
+		220DEFCF187C77E6004F28B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFCE187C77E6004F28B1 /* XCTest.framework */; };
+		220DEFD0187C77E6004F28B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFAF187C77E6004F28B1 /* Foundation.framework */; };
+		220DEFD1187C77E6004F28B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220DEFB3187C77E6004F28B1 /* UIKit.framework */; };
+		220DEFD9187C77E6004F28B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 220DEFD7187C77E6004F28B1 /* InfoPlist.strings */; };
+		220DEFDB187C77E6004F28B1 /* SRVPickerButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEFDA187C77E6004F28B1 /* SRVPickerButtonDemoTests.m */; };
+		220DEFE7187C7815004F28B1 /* SRVPickerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 220DEFE6187C7815004F28B1 /* SRVPickerButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220DEFD2187C77E6004F28B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220DEFA4187C77E6004F28B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220DEFAB187C77E6004F28B1;
+			remoteInfo = SRVPickerButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220DEFAC187C77E6004F28B1 /* SRVPickerButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRVPickerButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220DEFAF187C77E6004F28B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		220DEFB1187C77E6004F28B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		220DEFB3187C77E6004F28B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		220DEFB7187C77E6004F28B1 /* SRVPickerButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRVPickerButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		220DEFB9187C77E6004F28B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		220DEFBB187C77E6004F28B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		220DEFBD187C77E6004F28B1 /* SRVPickerButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRVPickerButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		220DEFBE187C77E6004F28B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		220DEFBF187C77E6004F28B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		220DEFC2187C77E6004F28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220DEFC4187C77E6004F28B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		220DEFC5187C77E6004F28B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		220DEFC7187C77E6004F28B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		220DEFCD187C77E6004F28B1 /* SRVPickerButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRVPickerButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220DEFCE187C77E6004F28B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		220DEFD6187C77E6004F28B1 /* SRVPickerButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRVPickerButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		220DEFD8187C77E6004F28B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		220DEFDA187C77E6004F28B1 /* SRVPickerButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRVPickerButtonDemoTests.m; sourceTree = "<group>"; };
+		220DEFE5187C7815004F28B1 /* SRVPickerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRVPickerButton.h; path = ../../SRVPickerButton/SRVPickerButton.h; sourceTree = "<group>"; };
+		220DEFE6187C7815004F28B1 /* SRVPickerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRVPickerButton.m; path = ../../SRVPickerButton/SRVPickerButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220DEFA9187C77E6004F28B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFB2187C77E6004F28B1 /* CoreGraphics.framework in Frameworks */,
+				220DEFB4187C77E6004F28B1 /* UIKit.framework in Frameworks */,
+				220DEFB0187C77E6004F28B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220DEFCA187C77E6004F28B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFCF187C77E6004F28B1 /* XCTest.framework in Frameworks */,
+				220DEFD1187C77E6004F28B1 /* UIKit.framework in Frameworks */,
+				220DEFD0187C77E6004F28B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220DEFA3187C77E6004F28B1 = {
+			isa = PBXGroup;
+			children = (
+				220DEFB5187C77E6004F28B1 /* SRVPickerButtonDemo */,
+				220DEFD4187C77E6004F28B1 /* SRVPickerButtonDemoTests */,
+				220DEFAE187C77E6004F28B1 /* Frameworks */,
+				220DEFAD187C77E6004F28B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220DEFAD187C77E6004F28B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFAC187C77E6004F28B1 /* SRVPickerButtonDemo.app */,
+				220DEFCD187C77E6004F28B1 /* SRVPickerButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220DEFAE187C77E6004F28B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFAF187C77E6004F28B1 /* Foundation.framework */,
+				220DEFB1187C77E6004F28B1 /* CoreGraphics.framework */,
+				220DEFB3187C77E6004F28B1 /* UIKit.framework */,
+				220DEFCE187C77E6004F28B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		220DEFB5187C77E6004F28B1 /* SRVPickerButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFE4187C7808004F28B1 /* SRVPickerButton */,
+				220DEFBE187C77E6004F28B1 /* AppDelegate.h */,
+				220DEFBF187C77E6004F28B1 /* AppDelegate.m */,
+				220DEFC1187C77E6004F28B1 /* Main.storyboard */,
+				220DEFC4187C77E6004F28B1 /* ViewController.h */,
+				220DEFC5187C77E6004F28B1 /* ViewController.m */,
+				220DEFC7187C77E6004F28B1 /* Images.xcassets */,
+				220DEFB6187C77E6004F28B1 /* Supporting Files */,
+			);
+			path = SRVPickerButtonDemo;
+			sourceTree = "<group>";
+		};
+		220DEFB6187C77E6004F28B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFB7187C77E6004F28B1 /* SRVPickerButtonDemo-Info.plist */,
+				220DEFB8187C77E6004F28B1 /* InfoPlist.strings */,
+				220DEFBB187C77E6004F28B1 /* main.m */,
+				220DEFBD187C77E6004F28B1 /* SRVPickerButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220DEFD4187C77E6004F28B1 /* SRVPickerButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFDA187C77E6004F28B1 /* SRVPickerButtonDemoTests.m */,
+				220DEFD5187C77E6004F28B1 /* Supporting Files */,
+			);
+			path = SRVPickerButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		220DEFD5187C77E6004F28B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFD6187C77E6004F28B1 /* SRVPickerButtonDemoTests-Info.plist */,
+				220DEFD7187C77E6004F28B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220DEFE4187C7808004F28B1 /* SRVPickerButton */ = {
+			isa = PBXGroup;
+			children = (
+				220DEFE5187C7815004F28B1 /* SRVPickerButton.h */,
+				220DEFE6187C7815004F28B1 /* SRVPickerButton.m */,
+			);
+			name = SRVPickerButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220DEFAB187C77E6004F28B1 /* SRVPickerButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220DEFDE187C77E6004F28B1 /* Build configuration list for PBXNativeTarget "SRVPickerButtonDemo" */;
+			buildPhases = (
+				220DEFA8187C77E6004F28B1 /* Sources */,
+				220DEFA9187C77E6004F28B1 /* Frameworks */,
+				220DEFAA187C77E6004F28B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRVPickerButtonDemo;
+			productName = SRVPickerButtonDemo;
+			productReference = 220DEFAC187C77E6004F28B1 /* SRVPickerButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220DEFCC187C77E6004F28B1 /* SRVPickerButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220DEFE1187C77E6004F28B1 /* Build configuration list for PBXNativeTarget "SRVPickerButtonDemoTests" */;
+			buildPhases = (
+				220DEFC9187C77E6004F28B1 /* Sources */,
+				220DEFCA187C77E6004F28B1 /* Frameworks */,
+				220DEFCB187C77E6004F28B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220DEFD3187C77E6004F28B1 /* PBXTargetDependency */,
+			);
+			name = SRVPickerButtonDemoTests;
+			productName = SRVPickerButtonDemoTests;
+			productReference = 220DEFCD187C77E6004F28B1 /* SRVPickerButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220DEFA4187C77E6004F28B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sam Voigt";
+				TargetAttributes = {
+					220DEFCC187C77E6004F28B1 = {
+						TestTargetID = 220DEFAB187C77E6004F28B1;
+					};
+				};
+			};
+			buildConfigurationList = 220DEFA7187C77E6004F28B1 /* Build configuration list for PBXProject "SRVPickerButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220DEFA3187C77E6004F28B1;
+			productRefGroup = 220DEFAD187C77E6004F28B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220DEFAB187C77E6004F28B1 /* SRVPickerButtonDemo */,
+				220DEFCC187C77E6004F28B1 /* SRVPickerButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220DEFAA187C77E6004F28B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFC8187C77E6004F28B1 /* Images.xcassets in Resources */,
+				220DEFBA187C77E6004F28B1 /* InfoPlist.strings in Resources */,
+				220DEFC3187C77E6004F28B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220DEFCB187C77E6004F28B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFD9187C77E6004F28B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220DEFA8187C77E6004F28B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFC6187C77E6004F28B1 /* ViewController.m in Sources */,
+				220DEFE7187C7815004F28B1 /* SRVPickerButton.m in Sources */,
+				220DEFC0187C77E6004F28B1 /* AppDelegate.m in Sources */,
+				220DEFBC187C77E6004F28B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220DEFC9187C77E6004F28B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220DEFDB187C77E6004F28B1 /* SRVPickerButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220DEFD3187C77E6004F28B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220DEFAB187C77E6004F28B1 /* SRVPickerButtonDemo */;
+			targetProxy = 220DEFD2187C77E6004F28B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220DEFB8187C77E6004F28B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220DEFB9187C77E6004F28B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		220DEFC1187C77E6004F28B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220DEFC2187C77E6004F28B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220DEFD7187C77E6004F28B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220DEFD8187C77E6004F28B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220DEFDC187C77E6004F28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		220DEFDD187C77E6004F28B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220DEFDF187C77E6004F28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRVPickerButtonDemo/SRVPickerButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "SRVPickerButtonDemo/SRVPickerButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		220DEFE0187C77E6004F28B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRVPickerButtonDemo/SRVPickerButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "SRVPickerButtonDemo/SRVPickerButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		220DEFE2187C77E6004F28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRVPickerButtonDemo.app/SRVPickerButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRVPickerButtonDemo/SRVPickerButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SRVPickerButtonDemoTests/SRVPickerButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		220DEFE3187C77E6004F28B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRVPickerButtonDemo.app/SRVPickerButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRVPickerButtonDemo/SRVPickerButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "SRVPickerButtonDemoTests/SRVPickerButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220DEFA7187C77E6004F28B1 /* Build configuration list for PBXProject "SRVPickerButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220DEFDC187C77E6004F28B1 /* Debug */,
+				220DEFDD187C77E6004F28B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220DEFDE187C77E6004F28B1 /* Build configuration list for PBXNativeTarget "SRVPickerButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220DEFDF187C77E6004F28B1 /* Debug */,
+				220DEFE0187C77E6004F28B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		220DEFE1187C77E6004F28B1 /* Build configuration list for PBXNativeTarget "SRVPickerButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220DEFE2187C77E6004F28B1 /* Debug */,
+				220DEFE3187C77E6004F28B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220DEFA4187C77E6004F28B1 /* Project object */;
+}
